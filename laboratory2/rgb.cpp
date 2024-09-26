@@ -9,6 +9,14 @@ using namespace std;
 //0x или 0X перед числом для шестнадцатиричной системы
 //
 
+int type_number(string words)
+{
+    int number = 0;
+    cout << words;
+    cin >> number;
+    return number;
+}
+
 string Check_16(int number)
 {
     if (number == 10)
@@ -50,7 +58,13 @@ void Print_RGB_in_HEX(int numbers[])
 
 int main(int argc, char const *argv[])
 {
-    int numbers[3] = {140, 30, 200};
+    setlocale(LC_ALL, "");
+    int numbers[3] = {0, 0, 0};
+
+    numbers[0] = type_number("Введите первое число: ");
+    numbers[1] = type_number("Введите второе число: ");
+    numbers[2] = type_number("Введите третье число: ");
+
     bool check = true;
 
     for (int i = 0; i < 3 && check == true; i++)
