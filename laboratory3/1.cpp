@@ -16,5 +16,9 @@ int main(int argc, char const *argv[])
     cout << start_word;
     cin >> number_too;
 
+    int number_test = number_one/number_too;
+
+    if (number_test * number_too == number_one)
+        cout << "Числа равны" << endl;
     return 0;
 }
