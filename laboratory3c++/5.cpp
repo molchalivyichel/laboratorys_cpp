@@ -6,7 +6,7 @@ using namespace std;
 
 void print_massive(int numbers[], int len)
 {
-    for(int i = 0; i < len; i++)
+    for(int i = 0; i < len-1; i++)
     {
         cout << numbers[i] << " ";
     }

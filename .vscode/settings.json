@@ -4,7 +4,25 @@
         "string": "cpp",
         "iostream": "cpp",
         "xstring": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "charconv": "cpp",
+        "exception": "cpp",
+        "format": "cpp",
+        "istream": "cpp",
+        "iterator": "cpp",
+        "locale": "cpp",
+        "memory": "cpp",
+        "stdexcept": "cpp",
+        "system_error": "cpp",
+        "typeinfo": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xlocbuf": "cpp",
+        "xlocinfo": "cpp",
+        "xlocmes": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xloctime": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
