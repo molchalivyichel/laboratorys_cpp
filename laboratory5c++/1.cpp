@@ -42,6 +42,6 @@ int main()
     cout << calculate(100,3,'-') << endl;
     cout << calculate(100,3,'+') << endl;
     cout << calculate(100,3,'*') << endl;
-    cout << calculate(100,3,'/') << endl;
+    cout << calculate(1,0,'/') << endl;
     return 0;
 }
