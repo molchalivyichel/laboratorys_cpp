@@ -12,7 +12,7 @@ func editGradeStudent(mapStudents map[string][]int, name string, idGrade int, ne
 		if len(mapStudents[name]) > idGrade {
 			mapStudents[name][idGrade] = newGrade
 		} else {
-			fmt.Println("Неверный idGrade студента")
+			fmt.Println("Неверный индекс списка оценок студента")
 		}
 	} else {
 		fmt.Println("Неверное имя студента")
@@ -39,7 +39,7 @@ func main() {
 	mapStudents = addStudent(mapStudents, "Maria", []int{5, 4, 3, 2, 2})
 	mapStudents = addStudent(mapStudents, "Max", []int{5, 5, 5, 5, 5})
 
-	mapStudents = editGradeStudent(mapStudents, "Max", 2, 5)
+	mapStudents = editGradeStudent(mapStudents, "Max", 2, 2)
 
 	fmt.Println(mapStudents)
 
