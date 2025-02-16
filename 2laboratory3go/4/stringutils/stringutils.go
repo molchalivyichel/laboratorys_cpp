@@ -1,17 +1,18 @@
 package stringutils
 
-import "fmt"
+import "strings"
 
 func Reverse(s string) (tempResult string) {
-
-	for i := 0; i < len(s); i++ {
-		tempResult += string(s[len(s)-i-1])
+	runes := []rune(s) 
+	
+	for i := len(runes) - 1; i >= 0; i-- {
+		tempResult += string(runes[i])
 	}
-	fmt.Println(tempResult)
 	return tempResult
 }
 
 func IsPalindrome(s string) (result bool) {
+	s = strings.ToLower(s)
 	tempResult := Reverse(s)
 	if s == tempResult {
 		result = true

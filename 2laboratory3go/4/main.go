@@ -6,6 +6,6 @@ import (
 )	
 
 func main() {
-	fmt.Println("test")
-	stringutils.Reverse("kaka")
+	fmt.Println(stringutils.Reverse("kaka"))
+	fmt.Println(stringutils.IsPalindrome("kAK"))
 }
