@@ -32,12 +32,20 @@
 *.app
 
 .vscode/
+<<<<<<< HEAD
 pr/.vs/
 pr/pr/
+=======
+pr/pr/
+pr/.vs/
+>>>>>>> 226a577c65951e27412b7e848f47cd9918734850
 pr/x64/
 pr/pr.sln
 pr/pr.vcxproj
 pr/pr.vcxproj.filters
 pr/pr.vcxproj.user
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 226a577c65951e27412b7e848f47cd9918734850
