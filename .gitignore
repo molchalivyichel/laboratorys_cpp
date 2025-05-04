@@ -33,6 +33,7 @@
 
 .vscode/
 pr/pr/
+pr/.vs/
 pr/x64/
 pr/pr.sln
 pr/pr.vcxproj
