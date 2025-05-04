@@ -46,6 +46,8 @@ pr/pr.sln
 pr/pr.vcxproj
 pr/pr.vcxproj.filters
 pr/pr.vcxproj.user
+.vs/
+.git/
 
 <<<<<<< HEAD
 
