@@ -32,3 +32,10 @@
 *.app
 
 .vscode/
+pr/pr/
+pr/x64/
+pr/pr.sln
+pr/pr.vcxproj
+pr/pr.vcxproj.filters
+pr/pr.vcxproj.user
+
