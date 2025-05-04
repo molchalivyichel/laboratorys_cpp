@@ -38,6 +38,8 @@ pr/pr/
 =======
 pr/pr/
 pr/.vs/
+.vs/
+.git/
 >>>>>>> 226a577c65951e27412b7e848f47cd9918734850
 pr/x64/
 pr/pr.sln
